@@ -24,10 +24,13 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/vendor.css">
-	<link rel="stylesheet" href="css/style-4.css">
+	<link rel="stylesheet" href="css/style-3.css">
 	<link rel="stylesheet" href="css/profilecard.css">
-	<link rel="stylesheet" href="css/hobbies.css">
+	<link rel="stylesheet" href="css/hobbies2.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/framework.css">
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 
@@ -47,25 +50,20 @@
 <body id="top">
 
 	<header>
-		<div class='spacer1'></div>
-		<nav class="style-4">
-
-			<ul class="menu-4">
-				<li class="current"><a href="#" data-hover="MANAN HINGORANI">MANAN HINGORANI</a></li>
 
 
 
-				<li class="current1"><a class="smoothscroll" , href="#services" data-hover="HOBBIES">HOBBIES</a>
+		<nav class="style-3">
+			<ul class="menu-3">
+				<li class="current"><a class="smoothscroll" href="#intro">Manan</a></li>
+				<li class="current1"><a class="smoothscroll" href="#intro">HOME</a></li>
+				<li class="current1"><a class="smoothscroll" href="#about">ABOUT</a></li>
+				<li class="current1"><a class="smoothscroll" href="#resume">SKILLS</a></li>
+				<li class="current1"><a class="smoothscroll" href="#services">HOBBIES</a></li>
 
-				</li>
-
-				<li class="current1"><a class="smoothscroll" , href="#resume" data-hover="SKILLS">SKILLS</a></li>
-				<li class="current1"><a class="smoothscroll" , href="#about" data-hover="ABOUT">ABOUT</a></li>
-
-				<li class="current1"><a class="smoothscroll" , href="#intro" data-hover="HOME">HOME</a></li>
 			</ul>
-
 		</nav>
+
 	</header>
 
 	<!-- intro section
@@ -79,17 +77,16 @@
 
 				<div class="col-twelve">
 
-
+					<h5>MANAN HINGORANI</h5>
 					<h1>ENIGMA</h1>
 
 
 
-					<p class="intro-position">
-						<span>Front-end Developer</span>
-						<span>Graphic Designer</span>
-					</p>
+
 					<div class="spacer"></div>
-					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					<div class="spacer"></div>
+					<div class="spacer"></div>
+					<a class="button stroke smoothscroll" href="#about" title="">INTRODUCTION</a>
 				</div>
 			</div>
 		</div> <!-- /intro-content -->
@@ -145,10 +142,7 @@
 
 
 						<div class="col-six tab-full">
-							<p>The 10,000 hours rule state that any skill can be mastered within the said amount of
-								hours. I aim to practice more and more and master the given languages in the
-								upcoming years to become a better programmer and use my skills for the betterment of
-								the society. Currently these are my skillsets : </p>
+
 
 							<ul class="skill-bars" , style="color: white;">
 								<li>
@@ -187,123 +181,72 @@
 
 	<!-- services Section
    ================================================== -->
-	<section id="services">
+	<section id="services" class="wrapper style3">
 
-		<div class="overlay"></div>
+		<!--	<div class="overlay"></div>
 
 		<div class="row section-intro">
 			<div class="col-twelve">
 
 				<h1>HOBBIES</h1>
 
-				<p class="lead">I've always been interested in a variety of things. My hobbies range from Coding to
-					Cinematics. I believe that if we invest more than a considerable amount of time in any x field, we
-					have tendency to grow fond of it. </p>
-
 			</div>
-		</div> <!-- /section-intro -->
+		</div> -->
+		<!-- /section-intro -->
 
-		<div class="row services-content">
-
-			<div id="owl-slider" class="owl-carousel services-list">
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-earth"></i></span>
-
-					<div class="service-content">
-
-						<h3>Coding</h3>
-
-						<p class="desc">Started coding after Jee advanced and formed an amazing group here at NSUT,
-							really excited about learning DSA also
-						</p>
-
+		<div class="wrapper1 row3">
+			<main class="hoc container clear">
+				<!-- main body -->
+				<!-- ################################################################################################ -->
+				<section id="introblocks">
+					<div class="sectiontitle">
+						<h6 class="heading"></h6>
+						<p style="font-weight: bold;">HOBBIES</p>
 					</div>
+					<ul class="nospace group">
+						<li class="one_quarter first">
+							<article><a href="#"><i class="fas fa-golf-ball"></i></a>
+								<h5 class="heading" , style="color: black;">CODING</h5>
+								<p>Started coding after Jee advanced and formed an amazing group here at NSUT, really
+									excited about learning DSA also
+								</p>
+								<footer><a class="btn" href="#">More Details</a></footer>
+							</article>
+						</li>
+						<li class="one_quarter">
+							<article><a href="#"><i class="fas fa-ribbon"></i></a>
+								<h6 class="heading" , style="color: black;">PHOTOGRAPHY</h6>
+								<p>I used to do photography in 9th grade, left it for 2 years but started again
+									massa</p>
+								<footer><a class="btn" href="#">More Details</a></footer>
+							</article>
+						</li>
+						<li class="one_quarter">
+							<article><a href="#"><i class="fas fa-tablets"></i></a>
+								<h6 class="heading" , style="color: black;">BASKETBALL</h6>
+								<p>I love playing basketball as it's my favourite sport and I've played till school
+									level and really excited to play further in college</p>
+								<footer><a class="btn" href="#">More Details</a></footer>
+							</article>
+						</li>
+						<li class="one_quarter">
+							<article><a href="#"><i class="fas fa-wine-glass"></i></a>
+								<h6 class="heading" , style="color: black;">DANCING</h6>
+								<p>I don't know how to dance, but I love to dance (if you know what I mean), especially
+									in shaadis!!</p>
+								<footer><a class="btn" href="#">More Details</a></footer>
+							</article>
+						</li>
+					</ul>
+				</section>
+				<!-- ################################################################################################ -->
+				<!-- / main body -->
+				<div class="clear"></div>
+			</main>
+		</div>
 
-				</div> <!-- /service -->
 
-				<div class="service">
 
-					<span class="icon"><i class="icon-window"></i></span>
-
-					<div class="service-content">
-
-						<h3>Photography</h3>
-
-						<p class="desc">I used to do photography in 9th grade, left it for 2 years but started again.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-paint-brush"></i></span>
-
-					<div class="service-content">
-
-						<h3>guitar</h3>
-
-						<p class="desc">I've been playing guitar since 10th grade, not a professional but I love playing
-							to freshen up my mind.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-toggles"></i></span>
-
-					<div class="service-content">
-
-						<h3>Cooking</h3>
-
-						<p class="desc">I started cooking in lockdown and I gradually got better at it and I love doing
-							it to freshen up my mind.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-image"></i></span>
-
-					<div class="service-content">
-
-						<h3>basketball</h3>
-
-						<p class="desc"> I love playing basketball as it's my favourite sport and I've played till
-							school level and really excited to play further in college.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-chat"></i></span>
-
-					<div class="service-content">
-
-						<h3>Dancing</h3>
-						<p class="desc"> I don't know how to dance, but I love to dance (if you know what I mean),
-							especially in shaadis!!
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-			</div> <!-- /services-list -->
-
-		</div> <!-- /services-content -->
 
 	</section> <!-- /services -->
 
@@ -343,7 +286,7 @@
 								cols="50" required=""></textarea>
 						</div>
 						<div class="form-field">
-							<button class="submitform">Submit</button>
+							<button class="submitform" style="color: black;">Submit</button>
 							<div id="submit-loader">
 								<div class="text-loader">Sending...</div>
 								<div class="s-loader">
@@ -369,31 +312,6 @@
 
 		</div> <!-- /contact-form -->
 
-		<div class="row contact-info">
-
-			<a href="https://www.facebook.com/manan.hingorani.7">
-				<div class="wrapper">
-					<div class="icon facebook">
-						<div class="tooltip">Facebook</div>
-						<span><i class="fab fa-facebook-f"></i></span>
-					</div>
-			</a>
-			<a href="https://www.instagram.com/manan_hingorani/">
-				<div class="icon instagram">
-					<div class="tooltip">Instagram</div>
-					<span><i class="fab fa-instagram"></i></span>
-				</div>
-			</a>
-
-			<a href="https://github.com/MananHingorani2003">
-				<div class="icon github">
-					<div class="tooltip" , href="">Github</div>
-					<span><i class="fab fa-github"></i></span>
-				</div>
-			</a>
-		</div>
-
-		</div> <!-- /contact-info -->
 
 	</section> <!-- /contact -->
 
